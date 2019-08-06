@@ -1,0 +1,110 @@
+/* CSS File for my Portfolio Page 
+
+Author: Bill Hall
+Website: https://flyboy85749.github.io/Bootstrap-Portfolio
+
+color for headings and backgrounds #4aaaa5
+regular font color for everything except headers #777777
+main header background color #ffffff
+main header border color #cccccc
+footer background color #666666
+main content background color #ffffff
+main content border color #dddddd
+used for headings font-family: 'Georgia', Times, 'Times New Roman', serif;
+for all except headings 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+*/
+
+body {
+    margin: 0 auto;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    color: #777777;
+    line-height: 120%;
+    width: 100%;
+}
+
+header {
+    
+    border-bottom: 2px solid #cccccc;
+}
+
+
+.nav {
+    float: right;
+}
+
+ul {
+    
+    margin: 40px 220px 20px 0px;
+}
+
+ul li a {
+    margin: 0px;
+    padding: 5px;
+    color: gray;
+    font-size: 24px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 36px;
+    color: #fff;
+    height: 67px;
+    width: 440px;
+    background-color: #4aaaa5;
+    text-align: center;
+    padding: 10px;
+    margin: 24.12px 0px 0px 196px;
+}
+
+h2 {
+    font-size: 27px;
+}
+
+.about {
+    color: #4aaaa5;
+    margin: 22.41px 0px;
+    padding: 5px 0px 30px 15px;
+    border-bottom: 2px solid #cccccc;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: rgb(204, 189, 118, 20%);
+    padding: 20px;
+    width: 960px;
+    border: 1px #777777;
+}
+
+
+
+section {
+    border: 1px solid #dddddd;
+    padding: 30px 10px 30px 10px;
+    
+}
+
+img {
+    margin: 10px 25px 10px 5px;
+    box-shadow: 5px 10px 8px 5px #afadad;
+}
+
+footer {
+    color: #fff;
+    background-color: #666666;
+    text-align: center;
+    height: 90px;
+    border-top: 8px solid #4aaaa5;
+}
+
+footer p {
+    margin-top: 30px;
+}
+
+
