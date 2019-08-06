@@ -64,7 +64,16 @@ h1 {
 }
 
 h2 {
+    color: #4aaaa5;
     font-size: 27px;
+}
+
+}
+
+header ul {
+    float: right;
+    width: 500px;
+    margin: 20px 210px 20px 0px;
 }
 
 .about {
@@ -83,17 +92,33 @@ h2 {
 }
 
 
-
 section {
+    margin: 30px 0px 60px 0px;
     border: 1px solid #dddddd;
-    padding: 30px 10px 30px 10px;
-    
+
 }
 
-img {
-    margin: 10px 25px 10px 5px;
-    box-shadow: 5px 10px 8px 5px #afadad;
+#main {
+    padding: 30px;
+
 }
+
+
+
+#main h2 {
+    color: #4aaaa5;
+    border-bottom: 2px solid #cccccc;
+    padding: 5px 0px 30px 15px;
+}
+
+
+
+.active {
+    text-decoration: underline;
+    color: gray;
+}
+
+
 
 footer {
     color: #fff;
@@ -107,4 +132,112 @@ footer p {
     margin-top: 30px;
 }
 
+.image-1 {
+    float: left;
+    box-shadow: 5px 10px 8px 5px #888888;
+    margin: 30px 5px 30px 0px;
+}
 
+.image-1-credit {
+    position: relative;
+    top: -60px;
+    left: 100px;
+    color: #fff;
+    font-size: 13px;
+    
+}
+
+.image-2 {
+    float: right;
+    box-shadow: 5px 10px 8px 5px #888888;
+    margin: 30px 0px 30px 5px;
+}
+
+.image-2-credit {
+    position: relative;
+    top: -60px;
+    left: 100px;
+    color: rgb(68, 65, 65);
+    font-size: 13px;
+}
+
+.image-3 {
+    box-shadow: 5px 10px 8px 5px #888888;
+    margin: 0px 20px 20px 0px;
+}
+
+.image-3-credit {
+    position: relative;
+    top: -50px;
+    left: 100px;
+    color: #fff;
+    font-size: 13px;
+}
+
+.image-4 {
+    float: left;
+    margin-top: 0px;
+    margin-left: 5px;
+    box-shadow: 5px 10px 8px 5px #888888;
+    
+}
+
+.image-4-credit {
+    position: relative;
+    top: -25px;
+    left: 120px;
+    color: rgb(70, 65, 65);
+    font-size: 13px;
+}
+
+.image-5 {
+    box-shadow: 5px 10px 8px 5px #888888;
+    margin: 15px 615px 20px 0px;
+}
+
+.image-5-credit {
+    position: relative;
+    top: -55px;
+    left: 100px;
+    color: #fff;
+    font-size: 13px;
+    
+}
+
+input[type=text],
+        select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit] {
+            width: 100%;
+            background-color: #4aaaa5;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #B3A770;
+        }
+
+        .container {
+            border-radius: 5px;
+            background-color: rgb(204, 189, 118, 20%);
+            padding: 20px;
+        }
+
+        pre {
+            color: #4aaaa5;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 18px;
+        }
