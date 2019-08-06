@@ -1,4 +1,4 @@
-/* CSS File for my Portfolio Page 
+/* CSS File for my Portfolio Page Redone in Bootstrap
 
 Author: Bill Hall
 Website: https://flyboy85749.github.io/Bootstrap-Portfolio
@@ -32,12 +32,10 @@ header {
 
 .nav {
     float: right;
+    margin-right: 120px;
+    padding: 20px 0px 0px 100px;
 }
 
-ul {
-    
-    margin: 40px 220px 20px 0px;
-}
 
 ul li a {
     margin: 0px;
@@ -68,7 +66,6 @@ h2 {
     font-size: 27px;
 }
 
-}
 
 header ul {
     float: right;
@@ -118,18 +115,24 @@ section {
     color: gray;
 }
 
-
-
-footer {
-    color: #fff;
-    background-color: #666666;
-    text-align: center;
-    height: 90px;
-    border-top: 8px solid #4aaaa5;
+.first {
+    padding: 15px 0px 0px 10px;
 }
 
-footer p {
-    margin-top: 30px;
+.second, .third {
+    padding-left: 10px;
+}
+
+.fourth {
+    padding-top: 0px;
+}
+
+
+
+.image-home {
+    float: left;
+    box-shadow: 5px 10px 8px 5px #afadad;
+    margin: 20px 40px 20px 5px;
 }
 
 .image-1 {
@@ -240,4 +243,16 @@ input[type=text],
             color: #4aaaa5;
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             font-size: 18px;
+        }
+
+        footer {
+            color: #fff;
+            background-color: #666666;
+            text-align: center;
+            height: 90px;
+            border-top: 8px solid #4aaaa5;
+        }
+        
+        footer p {
+            margin-top: 30px;
         }
