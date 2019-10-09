@@ -3,4 +3,4 @@ This my basic portolio redone with bootstrap
 
 ## Screenshot
 
-<img src="assets/images/port.png">
+<img src="https://flyboy85749.github.io/Bootstrap-Portfolio/assets/images/port.png">
