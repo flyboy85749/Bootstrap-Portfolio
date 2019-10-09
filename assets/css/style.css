@@ -134,76 +134,51 @@ section {
 }
 
 .image-1 {
-    float: left;
+    
     box-shadow: 5px 10px 8px 5px #888888;
     margin: 30px 5px 30px 0px;
 }
 
-.image-1-credit {
-    position: relative;
-    top: -60px;
-    left: 100px;
-    color: #fff;
-    font-size: 13px;
-    
-}
+
 
 .image-2 {
-    float: right;
+    
     box-shadow: 5px 10px 8px 5px #888888;
-    margin: 30px 0px 30px 5px;
+    margin: 30px 0px 30px 8px;
 }
 
-.image-2-credit {
-    position: relative;
-    top: -60px;
-    left: 100px;
-    color: rgb(68, 65, 65);
-    font-size: 13px;
-}
+
 
 .image-3 {
     box-shadow: 5px 10px 8px 5px #888888;
     margin: 0px 20px 20px 0px;
 }
 
-.image-3-credit {
-    position: relative;
-    top: -50px;
-    left: 100px;
-    color: #fff;
-    font-size: 13px;
-}
+
 
 .image-4 {
-    float: left;
+    
     margin-top: 0px;
     margin-left: 5px;
-    box-shadow: 5px 10px 8px 5px #888888;
+    box-shadow: 5px 10px 8px 0px #888888;
     
 }
 
-.image-4-credit {
-    position: relative;
-    top: -25px;
-    left: 120px;
-    color: rgb(70, 65, 65);
-    font-size: 13px;
-}
+
 
 .image-5 {
+    
     box-shadow: 5px 10px 8px 5px #888888;
     margin: 15px 615px 20px 0px;
 }
 
-.image-5-credit {
-    position: relative;
-    top: -55px;
-    left: 100px;
-    color: #fff;
-    font-size: 13px;
+.image-6 {
     
+    box-shadow: 5px 10px 8px 5px #888888;
+    margin: -310px 8px 20px 450px;
 }
+
+
 
 input[type=text],
         select {
